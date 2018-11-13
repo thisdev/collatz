@@ -3,8 +3,7 @@ function collatz(n) {
     for (let i = 0; i <= 100; i++) {
         if (n % 2 === 0) {
             n = n / 2;
-        }
-        else {
+        } else {
             n = n * 3 + 1;
         }
         console.log('Numbers: ' + n);
